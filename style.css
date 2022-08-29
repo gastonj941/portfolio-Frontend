@@ -1,0 +1,49 @@
+.titulo{
+    color: white;
+}
+
+.navbar-brand img{
+    margin: -11px 0;
+}
+
+.fa-brands{
+    color: rgb(154, 154, 154);
+    margin: 8px;
+}
+
+.card{
+    margin: 10px;
+    border-radius: 32px;
+}
+
+.card-img-top{
+    border-radius: 32px 32px 0 0;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -6.2em;
+}
+
+.progreso{
+    text-align: center;
+    padding: 0 10%;
+}
+
+.proyectos{
+    padding: 0 2%;
+}
+
+.proyectos a{
+    text-decoration: none;
+}
+
+.experiencia{
+    max-width: 540px;
+}
+
+.experiencia img{
+    max-height: 120px;
+}
