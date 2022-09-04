@@ -11,6 +11,11 @@
     margin: 8px;
 }
 
+.editar{
+    background-color: transparent;
+    border: 0;
+}
+
 .card{
     margin: 10px;
     border-radius: 32px;
@@ -27,21 +32,12 @@
     margin-top: -6.2em;
 }
 
-.progreso{
-    text-align: center;
-    padding: 0 10%;
-}
-
 .proyectos{
     padding: 0 2%;
 }
 
 .proyectos a{
     text-decoration: none;
-}
-
-.experiencia{
-    max-width: 540px;
 }
 
 .experiencia img{

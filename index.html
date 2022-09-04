@@ -51,8 +51,11 @@
     </div>
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Acerca de</h5>
-        <p class="card-text">
+        <div class="d-flex justify-content-between">
+          <h5 class="card-title">Acerca de</h5>
+          <button class="editar"><i class="fa-solid fa-pen"></i></button>
+        </div>
+          <p class="card-text">
           Estudiante avanzado de licenciatura en sistemas con deseos de crecer
           profesionalmente, dispuesto a aprender cosas nuevas constantemente
         </p>
@@ -60,19 +63,28 @@
     </div>
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Experiencia</h5>
+        <div class="d-flex justify-content-between">
+          <h5 class="card-title">Experiencia</h5>
+          <button class="editar"><i class="fa-solid fa-plus fa-xl"></i></button>
+        </div>
         <div class="card mb-3 border-white experiencia">
           <div class="row g-0">
-            <div class="col-md-4">
+            <div class="col-md-1">
               <img
                 src="img/day20-freelance.jpeg"
                 class="img-fluid rounded-start"
                 alt="..."
               />
             </div>
-            <div class="col-md-8">
+            <div class="col-md-11">
               <div class="card-body">
-                <h5 class="card-title">Fullstack</h5>
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Fullstack</h5>
+                  <div>
+                    <button class="editar"><i class="fa-solid fa-pen"></i></button>
+                    <button class="editar"><i class="fa-solid fa-trash"></i></button>
+                  </div>
+                </div>
                 <p class="card-text">Freelance</p>
                 <p class="card-text">
                   <small class="text-muted">2018</small>
@@ -81,19 +93,28 @@
             </div>
           </div>
         </div>
-        <h5 class="card-title">Educación</h5>
+        <div class="d-flex justify-content-between">
+          <h5 class="card-title">Educación</h5>
+          <button class="editar"><i class="fa-solid fa-plus fa-xl"></i></button>
+        </div>
         <div class="card mb-3 border-white experiencia">
           <div class="row g-0">
-            <div class="col-md-4">
+            <div class="col-md-1">
               <img
                 src="img/Logo-universidad-nacional-del-nordeste.png"
                 class="img-fluid rounded-start"
                 alt="..."
               />
             </div>
-            <div class="col-md-8">
+            <div class="col-md-11">
               <div class="card-body">
-                <h5 class="card-title">UNNE</h5>
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">UNNE</h5>
+                  <div>
+                    <button class="editar"><i class="fa-solid fa-pen"></i></button>
+                    <button class="editar"><i class="fa-solid fa-trash"></i></button>
+                  </div>
+                </div>
                 <p class="card-text">Licenciatura en sistemas de informacion</p>
                 <p class="card-text">
                   <small class="text-muted">2015-Actualidad</small>
@@ -106,20 +127,33 @@
     </div>
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Hard Skills & Soft Skills</h5>
-        <div class="progreso">
-          <p>Resolucion de problemas</p>
-          <div class="progress">
-            <div
-              class="progress-bar progress-bar-striped bg-success"
-              role="progressbar"
-              aria-label="Success striped example"
-              style="width: 75%"
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
+        <div class="d-flex justify-content-between">
+          <h5 class="card-title">Hard Skills & Soft Skills</h5>
+          <button class="editar"><i class="fa-solid fa-plus fa-xl"></i></button>
+        </div>
+        <div class="text-center">
+          <div class="row justify-content-md-center">
+            <div class="col-9">
+              <p>Resolucion de problemas</p>
+              <div class="progress">
+                <div
+                class="progress-bar progress-bar-striped bg-success"
+                role="progressbar"
+                aria-label="Success striped example"
+                style="width: 75%"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="col-1">
+              <button class="editar"><i class="fa-solid fa-pen"></i></button>
+              <button class="editar"><i class="fa-solid fa-trash"></i></button>
+            </div>
           </div>
+          <div class="row justify-content-md-center">
+            <div class="col-9">
           <p>Diseño de sistemas</p>
           <div class="progress">
             <div
@@ -132,15 +166,30 @@
               aria-valuemax="100"
             ></div>
           </div>
+          </div>
+          <div class="col-1">
+            <button class="editar"><i class="fa-solid fa-pen"></i></button>
+            <button class="editar"><i class="fa-solid fa-trash"></i></button>
+          </div>
+          </div>
         </div>
       </div>
     </div>
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Proyectos</h5>
+        <div class="d-flex justify-content-between">
+          <h5 class="card-title">Proyectos</h5>
+          <button class="editar"><i class="fa-solid fa-plus fa-xl"></i></button>
+        </div>
         <div class="proyectos">
           <a href="https://xenodochial-feynman-237997.netlify.app/">
-            <h5>Pizzeria</h5>
+            <div class="d-flex justify-content-between">
+              <h5>Pizzeria</h5>
+              <div>
+                <button class="editar"><i class="fa-solid fa-pen"></i></button>
+                <button class="editar"><i class="fa-solid fa-trash"></i></button>
+              </div>
+            </div>
           </a>
           <p class="card-text text-muted">
             Frontend de ecommerce de comida hecho con html, css, javascript y
