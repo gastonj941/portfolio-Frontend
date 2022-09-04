@@ -11,9 +11,21 @@
     margin: 8px;
 }
 
+.fa-brands:hover{
+    color: rgb(224, 224, 224);
+}
+
+.modal-content{
+    background-color: rgb(233 236 239);
+}
+
 .editar{
     background-color: transparent;
     border: 0;
+}
+
+.editar:hover{
+    color: rgb(0, 76, 255);
 }
 
 .card{
