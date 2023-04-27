@@ -1,0 +1,11 @@
+.profile{
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -6.2em;
+}
+
+.card{
+    margin: 10px;
+    border-radius: 32px;
+}

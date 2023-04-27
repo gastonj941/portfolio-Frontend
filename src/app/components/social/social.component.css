@@ -1,0 +1,8 @@
+fa-icon{
+    color: rgb(154, 154, 154);
+    margin: 8px;
+}
+
+fa-icon:hover{
+    color: rgb(224, 224, 224);
+}

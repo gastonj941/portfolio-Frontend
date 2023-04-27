@@ -1,0 +1,12 @@
+.card{
+    margin: 10px;
+    border-radius: 32px;
+}
+
+.proyectos{
+    padding: 0 2%;
+}
+
+.proyectos a{
+    text-decoration: none;
+}
