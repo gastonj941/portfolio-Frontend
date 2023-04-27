@@ -2,7 +2,7 @@
     <div class="card-body">
 <div class="d-flex justify-content-between">
     <h5 class="card-title">Educación</h5>
-    <app-boton-sumar></app-boton-sumar>
+    <app-boton-sumar routerLink="/nuevaedu" *ngIf="isLogged"></app-boton-sumar>
   </div>
   <div class="card mb-3 border-white experiencia">
     <div class="row g-0">
@@ -14,8 +14,8 @@
           <div class="d-flex justify-content-between">
             <h5 class="card-title">{{Educacion.nombreE}}</h5>
             <div>
-              <app-editar></app-editar>
-              <app-boton-trash></app-boton-trash>
+              <app-editar routerLink="/editexp/{{Educacion.id}}"></app-editar>
+              <app-boton-trash (click)="delete(Educacion.id)"></app-boton-trash>
             </div>
           </div>
           <p class="card-text">{{Educacion.descripcionE}}</p>
