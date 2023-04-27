@@ -13,8 +13,8 @@
         <div class="card-body" *ngFor="let Educacion of educacion">
           <div class="d-flex justify-content-between">
             <h5 class="card-title">{{Educacion.nombreE}}</h5>
-            <div>
-              <app-editar routerLink="/editexp/{{Educacion.id}}"></app-editar>
+            <div *ngIf="isLogged">
+              <app-editar routerLink="/editedu/{{Educacion.id}}"></app-editar>
               <app-boton-trash (click)="delete(Educacion.id)"></app-boton-trash>
             </div>
           </div>
