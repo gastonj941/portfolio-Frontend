@@ -2,21 +2,20 @@
     <div class="card-body">
         <div class="d-flex justify-content-between">
             <h5 class="card-title">Proyectos</h5>
-            <app-boton-sumar></app-boton-sumar>
+            <app-boton-sumar routerLink="/nuevaproy" *ngIf="isLogged"></app-boton-sumar>
         </div>
-        <div class="proyectos">
+        <div class="proyectos" *ngFor="let Proyecto of proyecto">
             <div class="d-flex justify-content-between">
-                <a href="https://xenodochial-feynman-237997.netlify.app/">
-                    <h5>Pizzeria</h5>
+                <a [href]="Proyecto.url">
+                    <h5>{{Proyecto.nombre}}</h5>
                 </a>
                 <div>
-                    <app-editar></app-editar>
-                    <app-boton-trash></app-boton-trash>
+                    <app-editar routerLink="/editproy/{{Proyecto.id}}"></app-editar>
+                    <app-boton-trash (click)="delete(Proyecto.id)"></app-boton-trash>
                 </div>
             </div>
             <p class="card-text text-muted">
-                Frontend de ecommerce de comida hecho con html, css, javascript y
-                bootstrap subido a netlify
+                {{Proyecto.descripcion}}
             </p>
         </div>
     </div>
